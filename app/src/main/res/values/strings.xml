@@ -5,4 +5,8 @@
     <string name="question_article">ВАМ НРАВИТСЯ ЭТА СТАТЬЯ?</string>
     <string name="yes">YES</string>
     <string name="no">NO</string>
+    <string name="yes_message">LIKE THIS</string>
+    <string name="no_message">THANKS FOR ANSWER</string>
+    <string name="title1">5w-30</string>
+    <string name="article">For best performance, follow the manufacturer\'s recommendations in your vehicle owner’s manual. Formulated for longer drain intervals Helps prevent build up that can cause rust and corrosion Reduces friction for less engine wear High resistance to viscosity and thermal breakdown Helps reduce exhaust emissions</string>
 </resources>
