@@ -23,15 +23,16 @@
         android:name="ru.synergy.fragmentarticleexample.Fragments.RatingBarFragment"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        app:layout_constraintStart_toStartOf="@id/fragment"
         app:layout_constraintEnd_toEndOf="@id/fragment"
-        app:layout_constraintTop_toTopOf="@id/fragment"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@id/fragment"
+        app:layout_constraintTop_toBottomOf="@+id/fragment"
         tools:layout="@layout/fragment_rating_bar" />
 
     <ImageView
         android:id="@+id/imageView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="157dp"
+        android:layout_height="233dp"
         android:layout_marginStart="@dimen/image_start_margin"
         android:layout_marginTop="150dp"
         android:scaleType="centerCrop"
@@ -49,7 +50,7 @@
         android:layout_marginStart="@dimen/margin_wide"
         android:text="@string/title1"
         android:textSize="20sp"
-        android:textAppearance="style/Base.TextAppearance.AppCompat.Medium"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintLeft_toRightOf="@+id/imageView"
         app:layout_constraintRight_toRightOf="parent"
@@ -64,9 +65,8 @@
         android:layout_marginTop="@dimen/standard_margin"
         android:layout_marginLeft="0dp"
         android:layout_marginStart="0dp"
-        android:layout_marginBotton="@dimen/standard_margin"
         app:layout_constraintTop_toBottomOf="@+id/title"
-        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintLeft_toLeftOf="@+id/title"
         app:layout_constraintBottom_toBottomOf="parent">
 
